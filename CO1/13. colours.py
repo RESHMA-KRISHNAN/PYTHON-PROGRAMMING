@@ -1,0 +1,7 @@
+print('\nTo create a list of colors from comma-separated color names entered by user. Display first and last colors.')
+print('\n_______________________________________________________________________')
+input_str=str(input('\nEnter few colours of your choice, separated by <space>\n'))
+color=input_str.split()
+print('\nColours entered by the user:',color)
+print('\nFirst colour:',color[0])
+print('\nLast colour:',color[-1],'\n')
